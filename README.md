@@ -12,4 +12,5 @@ Query |*1st*    |  *2nd* | *3rd* |*4th* |*5th*
 
 ## Reference
 Scalable Face Image Retrieval using Attribute-Enhanced Sparse Codewords, *Chen et al., IEEE Trans. Multimedia 2013* [[1]](http://cmlab.csie.ntu.edu.tw/~sirius42/papers/tmm12.pdf)
+
 Semi-supervised face image retrieval using sparse coding with identity constraint, *Chen et al., ACM MM 2011* [[2]](http://cmlab.csie.ntu.edu.tw/~sirius42/papers/mm11.pdf)
