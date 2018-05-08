@@ -1,0 +1,183 @@
+batch size:256, dictionary size:100, postive:False
+distance metric: overlap
+MAP on 120 queries 0.04094575444624592:
+distance metric: cosine
+MAP on 120 queries 0.03590309257256008:
+distance metric: l2
+MAP on 120 queries 0.03466738221684197:
+distance metric: dice
+MAP on 120 queries 0.040948053149307315:
+distance metric: correlation
+MAP on 120 queries 0.035896799409168:
+distance metric: minkowski
+MAP on 120 queries 0.03572459968977103:
+
+
+
+batch size:1000, dictionary size:100, postive:False
+distance metric: overlap
+MAP on 120 queries 0.03676895065154161:
+distance metric: cosine
+MAP on 120 queries 0.0350202754820454:
+distance metric: l2
+MAP on 120 queries 0.03214556637415699:
+distance metric: dice
+MAP on 120 queries 0.03676895065154161:
+distance metric: correlation
+MAP on 120 queries 0.03498706754543817:
+distance metric: minkowski
+MAP on 120 queries 0.03497815517593576:
+
+batch size:32, dictionary size:100, postive:False
+distance metric: overlap
+MAP on 120 queries 0.0354102010792405:
+distance metric: cosine
+MAP on 120 queries 0.03392073856784808:
+distance metric: l2
+MAP on 120 queries 0.031062089934471994:
+distance metric: dice
+MAP on 120 queries 0.0354102010792405:
+distance metric: correlation
+MAP on 120 queries 0.033886812378462944:
+distance metric: minkowski
+MAP on 120 queries 0.03397668360368808:
+
+*lAMBDA ³£µ¥©ó1*
+batch size:256, dictionary size:100, postive:False
+distance metric: overlap
+MAP on 120 queries 0.059701905837829465:
+distance metric: cosine
+MAP on 120 queries 0.04636592660930212:
+distance metric: l2
+MAP on 120 queries 0.0007049393450897742:
+distance metric: dice
+MAP on 120 queries 0.05571725238049626:
+distance metric: correlation
+MAP on 120 queries 0.04587222066799389:
+distance metric: minkowski
+MAP on 120 queries 0.0006358256855701084:
+
+
+lambda DL:1, lambda LARS:1, batch size:256,       dictionary size:100, postive:False
+distance metric: overlap
+MAP on 120 queries 0.12556867668142788
+distance metric: cosine
+MAP on 120 queries 0.06435418110431676
+distance metric: l2
+MAP on 120 queries 0.008656220280467586
+distance metric: dice
+MAP on 120 queries 0.12562589119760237
+distance metric: correlation
+MAP on 120 queries 0.0632715313280919
+distance metric: minkowski
+MAP on 120 queries 0.025824743451290367
+
+lambda DL:1, lambda LARS:0.1, batch size:100,dictionary size:100, postive:False
+distance metric: overlap
+MAP on 120 queries 0.0644645480037463
+distance metric: cosine
+MAP on 120 queries 0.04456849417788473
+distance metric: l2
+MAP on 120 queries 0.009437361896055119
+distance metric: dice
+MAP on 120 queries 0.06446925703121278
+distance metric: correlation
+MAP on 120 queries 0.04436709657639091
+distance metric: minkowski
+MAP on 120 queries 0.045332862850662785
+
+lambda DL:1, lambda LARS:10, batch size:100,dictionary size:100, postive:False
+distance metric: overlap
+MAP on 120 queries 0.12338911223506685
+
+lambda DL:1, lambda LARS:1, batch size:100,dictionary size:100, postive:True
+distance metric: overlap
+MAP on 120 queries 0.11945286664437794
+
+lambda DL:1, lambda LARS:1, batch size:400,dictionary size:100, postive:False
+distance metric: overlap
+MAP on 120 queries 0.11658606786653304
+
+lambda DL:1, lambda LARS:1, batch size:32,dictionary size:100, postive:False
+distance metric: overlap
+MAP on 120 queries 0.12375854787442873
+
+lambda DL:1, lambda LARS:1, batch size:256,dictionary size:400, postive:False
+distance metric: overlap
+MAP on 120 queries 0.11318694480315486
+
+lambda DL:1, lambda LARS:1, batch size:100,dictionary size:100, postive:False
+distance metric: overlap
+MAP on 120 queries 0.12757783529922576
+
+lambda DL:1, lambda LARS:1, batch size:100,dictionary size:100, postiveD:True, postiveLARS:True
+distance metric: overlap
+MAP on 120 queries 0.12422211793773087
+
+
+#### sparse with identity
+beta:0.5, lambda DL:1, lambda LARS:1, batch size:100, dictionary size:100, postiveD:True, postiveLARS:True
+distance metric: overlap
+MAP on 120 queries 0.4033193950544718
+distance metric: cosine
+MAP on 120 queries 0.23450512804733678
+
+beta:0.15, lambda DL:1, lambda LARS:1, batch size:100, dictionary size:100, postiveD:True, postiveLARS:True
+distance metric: overlap
+MAP on 120 queries 0.4033193950544718
+distance metric: cosine
+MAP on 120 queries 0.6304253452062618
+
+beta:0.75, lambda DL:1, lambda LARS:1, batch size:100, dictionary size:100, postiveD:True, postiveLARS:True
+distance metric: overlap
+MAP on 120 queries 0.4033193950544718
+distance metric: cosine
+MAP on 120 queries 0.11504667695722882
+
+beta:0.25, lambda DL:1, lambda LARS:1, batch size:100, dictionary size:100, postiveD:True, postiveLARS:True
+distance metric: overlap
+MAP on 120 queries 0.4033193950544718
+distance metric: cosine
+MAP on 120 queries 0.49691516636214444
+
+beta:0.1, lambda DL:1, lambda LARS:1, batch size:100, dictionary size:100, postiveD:True, postiveLARS:True
+distance metric: overlap
+MAP on 120 queries 0.4033193950544718
+distance metric: cosine
+MAP on 120 queries 0.6994632950268033
+distance metric: l2
+MAP on 120 queries 0.6888171749208084
+distance metric: dice
+MAP on 120 queries 0.0
+distance metric: correlation
+MAP on 120 queries 0.681891819321934
+distance metric: minkowski
+MAP on 120 queries 0.34930472225867487
+
+beta:0.01, lambda DL:1, lambda LARS:1, batch size:100, dictionary size:100, postiveD:True, postiveLARS:True
+distance metric: overlap
+MAP on 120 queries 0.4033193950544718
+distance metric: cosine
+MAP on 120 queries 0.7769745761915757
+distance metric: l2
+MAP on 120 queries 0.7703551535778504
+distance metric: dice
+MAP on 120 queries 0.0
+distance metric: correlation
+MAP on 120 queries 0.7495604243058221
+distance metric: minkowski
+MAP on 120 queries 0.36447519966076575
+
+beta:0.0, lambda DL:1, lambda LARS:1, batch size:100, dictionary size:100, postiveD:True, postiveLARS:True
+distance metric: overlap
+MAP on 120 queries 0.4033193950544718
+distance metric: cosine
+MAP on 120 queries 0.783541557779899
+distance metric: l2
+MAP on 120 queries 0.7812835327159214
+distance metric: dice
+MAP on 120 queries 0.0
+distance metric: correlation
+MAP on 120 queries 0.7483135031137272
+distance metric: minkowski
+MAP on 120 queries 0.3643913567254549
