@@ -1,7 +1,14 @@
 # Sparse-Coding-for-Face-Image-Retrieval
 
+## Data
 LFW DATA Labeled Faces in the Wild (LFW) is a widely used benchmark for face verification. It contains 13233 images of 5749 different people. You can find more information on the data set at http://vis-www.cs.umass.edu/lfw/.
-
+## Usage
+```
+cd ./src
+python3 face_image_retrieval.py [LFW pickle data] [LFW attribute txt]
+```
+## Dependency
+`Python3` `numpy` `joblib` `scipy` `pandas` `matplotlib` `spams`
 ## Baseline result
 Compute L2 distance of local binary pattern **(LBP)**  and rank.
 
@@ -29,3 +36,5 @@ Query |*1st*    |  *2nd* | *3rd* |*4th* |*5th*
 Scalable Face Image Retrieval using Attribute-Enhanced Sparse Codewords, *Chen et al., IEEE Trans. Multimedia 2013* [[1]](http://cmlab.csie.ntu.edu.tw/~sirius42/papers/tmm12.pdf)
 
 Semi-supervised face image retrieval using sparse coding with identity constraint, *Chen et al., ACM MM 2011* [[2]](http://cmlab.csie.ntu.edu.tw/~sirius42/papers/mm11.pdf)
+
+SPArse Modeling Software [[3]](http://spams-devel.gforge.inria.fr/index.html)
