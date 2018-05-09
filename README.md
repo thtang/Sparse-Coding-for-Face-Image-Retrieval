@@ -10,6 +10,8 @@ python3 face_image_retrieval.py [LFW pickle data] [LFW attribute txt]
 ## Dependency
 `Python3` `numpy` `joblib` `scipy` `pandas` `matplotlib` `spams`
 ## Baseline result
+[Experiment report](https://github.com/thtang/Sparse-Coding-for-Face-Image-Retrieval/blob/master/report.pdf)
+
 Compute L2 distance of local binary pattern **(LBP)**  and rank.
 
 Query |*1st*    |  *2nd* | *3rd* |*4th* |*5th*
