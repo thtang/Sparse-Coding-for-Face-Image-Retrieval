@@ -2,16 +2,41 @@
 import numpy as np
 import sys
 import pickle
+import scipy
+import scipy.stats
 
 def pairwise_l2_dist(a, b):
     dist = np.linalg.norm(a-b)
     return dist
 
-def search(query_feature,database_feature, identity):
+def search(query_feature,database_feature, identity, dist_metric="l2"):
     distance_list = []
     a = query_feature
-    for b in database_feature:
-        distance_list.append(pairwise_l2_dist(a, b))
+    if  dist_metric == "l2":
+        for b in database_feature:
+            distance_list.append(l2_distance1(a, b))
+    elif dist_metric=="spearmanr":
+        for b in database_feature:
+            dist = scipy.stats.spearmanr(a,b)[0]
+            distance_list.append(dist)
+    elif dist_metric=="minkowski":
+        for b in database_feature:
+            X = np.vstack((a,b))
+            dist = scipy.spatial.distance.pdist(X, dist_metric,p=1)[0]
+            distance_list.append(dist)
+    elif dist_metric=="overlap":
+        query_feature[query_feature!=0] = 1
+        database_feature[database_feature!=0] = 1
+        for b in database_feature:
+            X = np.vstack((a,b))
+            dist = scipy.spatial.distance.pdist(X, "cosine")[0]
+            distance_list.append(dist)
+    else:
+        for b in database_feature:
+            X = np.vstack((a,b))
+            dist = scipy.spatial.distance.pdist(X, dist_metric)[0]
+            distance_list.append(dist)
+            
     sortIndexByDist = np.argsort(np.array(distance_list))
     return identity[sortIndexByDist]
 
