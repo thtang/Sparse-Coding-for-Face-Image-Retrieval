@@ -39,4 +39,4 @@ Query |*1st*    |  *2nd* | *3rd* |*4th* |*5th*
 
 [[2]](http://cmlab.csie.ntu.edu.tw/~sirius42/papers/mm11.pdf) Semi-supervised face image retrieval using sparse coding with identity constraint, *Chen et al., ACM MM 2011*<br>
 
-[[3]](http://spams-devel.gforge.inria.fr/index.html) SPArse Modeling Software [[3]](http://spams-devel.gforge.inria.fr/index.html)<br>
+[[3]](http://spams-devel.gforge.inria.fr/index.html) SPArse Modeling Software
