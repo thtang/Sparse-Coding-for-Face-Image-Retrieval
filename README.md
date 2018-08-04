@@ -3,6 +3,7 @@
 ## Data
 LFW DATA Labeled Faces in the Wild (LFW) is a widely used benchmark for face verification. It contains 13233 images of 5749 different people. You can find more information on the data set at http://vis-www.cs.umass.edu/lfw/.
 ## Usage
+Download the [dataset](https://drive.google.com/file/d/1Pz8On_cAFAMkLJYk1OdqqycyxIwQe3oO/view?usp=sharing).
 ```
 cd ./src
 python3 face_image_retrieval.py [LFW pickle data] [LFW attribute txt]
